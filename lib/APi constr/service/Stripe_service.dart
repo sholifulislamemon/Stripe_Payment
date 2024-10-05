@@ -37,9 +37,7 @@ class StripeServices {
             "Authorization": "Bearer $AppSecret_key",
             "Content-type": "application/x-www-form-urlencoded"
           }
-
           )
-
       );
       if (responce.data != null) {
         return responce.data["client_secret"];
@@ -54,6 +52,7 @@ class StripeServices {
   Future<void> _processPayment() async {
     try {
       await Stripe.instance.presentPaymentSheet();
+      await Stripe.instance.confirmPaymentSheetPayment();
     } catch (e) {
       print(e);
     }
