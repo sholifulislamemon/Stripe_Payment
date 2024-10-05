@@ -1,0 +1,2 @@
+const String Publishable_key = "pk_test_51Q6JA9IiXNFcgkKzVH5Lo0JpInDHdMK91De7QVrxHgKFB1brjDWwY9RJ7fP1Pj7v7JFbAC1PzlIciA5pa7rfiaHQ00atgMLYRN";
+const String AppSecret_key = "sk_test_51Q6JA9IiXNFcgkKzYkrqVagOh6eS64mmNk1AkBkoBXzzm1ldVn3JwwiNW7SttlAddm2UBzc0A1MowRRXHZ7HXwk600woepnrje";
